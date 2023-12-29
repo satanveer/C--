@@ -4,7 +4,7 @@ void pattern(int n)
 
 {
     for(int i=0;i<n;i++){
-        for(int j=1;j<i+2;j++){
+        for(int j=1;j<n-i+1;j++){
             cout<<j;
         }
         cout<<endl;
@@ -13,5 +13,5 @@ void pattern(int n)
 }
 int main()
 {
-   pattern(8);
+   pattern(4);
 }
