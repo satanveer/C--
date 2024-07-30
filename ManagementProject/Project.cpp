@@ -3,7 +3,7 @@
 #include<string.h>
 #include<iomanip>
 using namespace std;
-int get_file_emp();// function is declared so that it can be used anywhere
+int get_file_emp();
 
 class employee
 {
